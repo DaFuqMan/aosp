@@ -72,9 +72,6 @@ PRODUCT_PACKAGES += \
     WeatherClient
 
 # Weather
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.extended.weather.revision=2
-
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml
 
