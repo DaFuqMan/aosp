@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 _contents := $(_contents)    "Aosp":{$(newline)
 
 # See build/core/soong_config.mk for the add_json_* functions you can use here.
