@@ -132,8 +132,7 @@ PRODUCT_COPY_FILES += \
 # Turbo
 PRODUCT_PACKAGES += \
     Turbo \
-    turbo.xml \
-    privapp-permissions-turbo.xml
+    turbo.xml
 
 # Extra tools
 PRODUCT_PACKAGES += \
