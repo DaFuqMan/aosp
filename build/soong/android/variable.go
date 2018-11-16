@@ -55,11 +55,8 @@ type Product_variables struct {
 }
 
 type ProductVariables struct {
-<<<<<<< HEAD
 	Additional_gralloc_10_usage_bits  *string `json:",omitempty"`
 	Has_legacy_camera_hal1  *bool `json:",omitempty"`
-=======
->>>>>>> parent of fca9ad0... vendor: Clean up soong flags
 	Needs_text_relocations  *bool `json:",omitempty"`
 	Uses_non_treble_camera  *bool `json:",omitempty"`
 	Uses_generic_camera_parameter_library  *bool `json:",omitempty"`
