@@ -1,0 +1,77 @@
+package android_aosp
+type Product_variables struct {
+	Additional_gralloc_10_usage_bits struct {
+		Cppflags []string
+	}
+
+	Has_legacy_camera_hal1 struct {
+		Cflags []string
+	}
+
+        Needs_legacy_camera_hal1_dyn_native_handle struct {
+		Cppflags []string
+	}
+
+	Uses_media_extensions struct {
+		Cflags []string
+	}
+
+	BoardUsesQTIHardware struct {
+		Cflags []string
+		Cppflags []string
+	}
+
+	BoardUsesQCOMHardware struct {
+		Cflags []string
+		Cppflags []string
+	}
+
+	TargetUsesQCOMBsp struct {
+		Cflags []string
+		Cppflags []string
+	}
+
+	TargetUsesQCOMLegacyBsp struct {
+		Cflags []string
+		Cppflags []string
+	}
+
+	BoardUsesLegacyAlsa struct {
+		Cflags []string
+		Cppflags []string
+	}
+
+	Cant_reallocate_omx_buffers struct {
+		Cflags []string
+        }
+
+	Uses_generic_camera_parameter_library struct {
+		Srcs []string
+	}
+	
+		Target_shim_libs struct {
+		Cppflags []string
+	}
+}
+
+type ProductVariables struct {
+<<<<<<< HEAD
+	Additional_gralloc_10_usage_bits  *string `json:",omitempty"`
+	Has_legacy_camera_hal1  *bool `json:",omitempty"`
+=======
+>>>>>>> parent of fca9ad0... vendor: Clean up soong flags
+	Needs_text_relocations  *bool `json:",omitempty"`
+	Uses_non_treble_camera  *bool `json:",omitempty"`
+	Uses_generic_camera_parameter_library  *bool `json:",omitempty"`
+	Specific_camera_parameter_library  *string `json:",omitempty"`
+	Has_legacy_camera_hal1  *bool `json:",omitempty"`
+        Needs_legacy_camera_hal1_dyn_native_handle  *bool `json:",omitempty"`
+	Uses_media_extensions   *bool `json:",omitempty"`
+	BoardUsesQTIHardware  *bool `json:",omitempty"`
+	BoardUsesQCOMHardware  *bool `json:",omitempty"`
+	TargetUsesQCOMBsp  *bool `json:",omitempty"`
+	TargetUsesQCOMLegacyBsp  *bool `json:",omitempty"`
+	BoardUsesLegacyAlsa  *bool `json:",omitempty"`
+	Cant_reallocate_omx_buffers *bool `json:",omitempty"`
+	Target_shim_libs  *string `json:",omitempty"`
+}
