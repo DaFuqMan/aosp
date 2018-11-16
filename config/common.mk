@@ -54,6 +54,7 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     Stk \
+    Turbo \
     ViaBrowser \
     AEXPapers \
     RetroMusicPlayer \
@@ -128,11 +129,6 @@ PRODUCT_COPY_FILES += \
 # Pixel sysconfig
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/sysconfig/pixel.xml:system/etc/sysconfig/pixel.xml
-
-# Turbo
-PRODUCT_PACKAGES += \
-    Turbo \
-    turbo.xml
 
 # Extra tools
 PRODUCT_PACKAGES += \
